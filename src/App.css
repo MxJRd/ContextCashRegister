@@ -1,0 +1,8 @@
+#root {
+  margin: 0 auto;
+  --font-medium: 1.5rem;
+}
+
+body {
+  box-sizing: border-box;
+}

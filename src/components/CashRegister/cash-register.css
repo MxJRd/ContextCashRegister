@@ -1,0 +1,64 @@
+.cash-register {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 2rem;
+  height: 20rem;
+  gap: 1rem;
+}
+
+.cash-register h2 {
+  font-size: var(--font-medium);
+}
+
+.cash-register span {
+  font-size: var(--font-medium);
+  font-weight: bold;
+}
+.cash-register-display {
+  line-height: 2rem;
+}
+
+.cash-register__transaction-field {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.cash-register-controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.cash-register-controls__form {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.cash-register-controls--add {
+  background-color: green;
+}
+
+.cash-register-controls--remove {
+  background-color: red;
+}
+
+.bill-amount-display {
+  display: flex;
+  gap: 0.5rem;
+}
+
+input {
+  padding: 0.5rem;
+  border-radius: 0.2rem;
+}
+
+.success {
+  color: green
+}
+
+.error-message {
+  color: red;
+}
