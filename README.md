@@ -1,4 +1,4 @@
-# Fastmodel Sports Takehome!
+# Cash Register!
 
 **Problem:**
 We want to build a cash register with a few different functionalities!
